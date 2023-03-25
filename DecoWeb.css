@@ -220,3 +220,19 @@ p{
   background: #f44336;
   transition: 1s;
 }
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30% 0;
+}
+.footer h4{
+  margin-bottom: 25ox;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.icon .fa{
+  color: #f44336;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px;
+}
