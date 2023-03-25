@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Decorative Events</title>
         <link rel="stylesheet" href="DecoWeb.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,15 +33,59 @@
                 <a class="visit-btn" href="">Visit us to know more</a>
             </div>
         </section>
-        
+        <!--Services-->
+        <section class="services">
+            <h1>Services We Offer</h1>
+
+            <div class="row">
+                <div class="services-col">
+                    <h3>Event Decorate</h3>
+                    <p>Weddings &ensp; Baby Showers &ensp; Birthdays &ensp; Funerals &ensp; Unveilings &ensp; 
+                    Lobola Ceremony</p>
+                </div>
+                <div class="services-col">
+                    <h3>Rental</h3>
+                    <p>You can rent our equipment and decorate yourself at a lower price than when you request 
+                    our full services</p>
+                </div>
+            </div>
+        </section>
+        <!--Gallery-->
+        <section class="gallery">
+            <h1>Gallery</h1>
+
+            <div class="gal-row">
+                <div class="gallery-col">
+                    <img src="images/Birthday-Gal-Img.jpg">
+                    <div class="layer">
+                        <h3>BIRTHDAYS</h3>
+                    </div>
+                </div>
+
+                <div class="gallery-col">
+                    <img src="images/BabyShower-Gal-Img2.jpg">
+                    <div class="layer">
+                        <h3>BABY SHOWERS</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-col">
+                    <img src="images/Wedding-Gal-Img.jpg">
+                    <div class="layer">
+                        <h3>WEDDINGS</h3>
+                    </div>
+                </div>
+            </div>
+            <a class="gallery-btn" href="">View All</a>
+        </section>
         <!-- JavaScript for Toggle menu -->
         <script>
-            var navlinks=document.getElementById("navLinks");
+            var navLinks=document.getElementById("navLinks");
             function showMenu(){
-                navlinks.style.right="0";
+                navLinks.style.right="0";
             }
-            function hidMenu(){
-                navlinks.style.right="-200px";
+            function hideMenu(){
+                navLinks.style.right="-200px";
             }
         </script>
     </body>
